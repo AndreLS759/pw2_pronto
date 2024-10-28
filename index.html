@@ -1,0 +1,211 @@
+<!-- André, Heron, Kaylane, Luiz e Micaely -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana-nana</title>
+    <style>
+        /* Estilos Globais */
+        body,
+        html {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Estilo do Menu */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+
+        /* Primeira Seção - Apresentação */
+        .section1 {
+            background-color: #232323;
+            /* azul claro */
+            padding: 80px 20px 40px;
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        /* Segunda Seção - Promoção */
+        .section2 {
+            background-color: #302f2f;
+            /* verde claro */
+            padding: 40px 20px;
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        /* Testemunhos */
+        .testimonials {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .testimonial {
+            background-color: #8b8b8b;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: left;
+        }
+
+        /* Terceira Seção - Formulário */
+        .section3 {
+            background-color: #353232;
+            /* rosa claro */
+            padding: 40px 20px;
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form input,
+        form textarea,
+        form button {
+            width: 75%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            border: 1px solid #303030;
+            font-size: 16px;
+        }
+
+        form button {
+            background-color: #575656;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #555;
+            transform: scale(5.05);
+        }
+
+        .texto{
+            width: 750px;
+            height: 200px;
+            margin-left: 400px;
+            text-align: center;
+            
+        }
+
+        .banana{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <a href="#section1">Home</a>
+        <a href="#section2">Nossos Clientes</a>
+        <a href="#section3">Contato</a>
+        <a href="#section4">Sobre nós</a>
+    </nav>
+
+    <!-- Primeira Parte: Apresentação -->
+    <section id="section1" class="section1">
+        <h2 style="color: white;">Bem-vindo a nossa Pagina!!</h2 >
+        <div class="texto">
+        <p>A BananaMania é uma empresa especializada na venda e distribuição de bananas de alta qualidade, trazendo o sabor e a saúde dessa fruta diretamente para os consumidores, mercados e empresas parceiras. Fundada com a missão de fornecer produtos frescos e cultivados de forma sustentável, a BananaMania oferece uma ampla variedade de bananas, desde as populares nanicas e pratas até variedades especiais, como banana-da-terra e banana-maçã.
+
+            Nossa Missão: Nosso compromisso é entregar bananas de alta qualidade, colhidas no auge de sua maturação, para garantir um sabor incomparável e o máximo valor nutritivo. Trabalhamos diretamente com produtores locais, apoiando práticas agrícolas sustentáveis que preservam o meio ambiente e valorizam as comunidades rurais.
+            
+            Nossos Diferenciais:
+            
+            Qualidade Superior: Selecionamos e embalamos cada banana com cuidado, assegurando frescor e integridade ao longo do processo.
+            Variedade para Todos os Gostos: Com várias opções de banana, atendemos tanto o consumo direto quanto o uso em receitas, bares e restaurantes.
+            Sustentabilidade e Parceria Local: Nossa operação prioriza práticas responsáveis, reduzindo o desperdício e promovendo a economia local.
+            Na BananaMania, acreditamos que uma banana não é apenas uma fruta – é uma fonte de energia e saúde, pronta para fazer parte do seu dia a dia!</p>
+        
+        </div>
+
+        <div class="banana">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQp93a7xpAJvXn4G_8lP_eSTeVPvmSG4c5A&s"
+            alt="Imagem do Estabelecimento" style="max-width: 200%; border-radius: 10px;" width="500px">
+
+        </div>
+    </section>
+
+    <!-- Segunda Parte: Promoção do Estabelecimento -->
+    <section id="section2" class="section2">
+        <h2 style="color: white;">Clientes Satisfeitos</h2>
+        <p style="color: white;">Conheça alguns de nossos clientes e o que eles dizem sobre nós.</p>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p><strong>Cliente 1</strong></p>
+                <p>"Excelente atendimento e produtos de qualidade. Recomendo!"</p>
+            </div>
+            <div class="testimonial">
+                <p><strong>Cliente 2</strong></p>
+                <p>"O melhor estabelecimento da região, sempre com novidades!"</p>
+            </div>
+            <div class="testimonial">
+                <p><strong>Cliente 3</strong></p>
+                <p>"Ótimo custo-benefício. Atendimento sempre atencioso."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terceira Parte: Formulário de Contato -->
+    <section id="section3" class="section3">
+        <h2 style="color: white;">Entre em Contato</h2>
+        <p>Para mais informações ou agendamentos, preencha o formulário abaixo.</p>
+        <form action="/enviar-formulario" method="POST">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="tel" name="telefone" placeholder="Telefone" required>
+            <textarea name="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
